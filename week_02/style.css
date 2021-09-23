@@ -1,0 +1,40 @@
+*{
+text-align: center; font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html{
+background:rgba(230, 247, 3, 0.952);
+}
+
+.flag{
+background-color:red;
+margin: auto;
+height: 1000px;
+width: 1000px;
+overflow: hidden;
+border-radius: 3px;
+}
+
+.w{
+position: absolute;
+background-color: rgb(255, 255, 255);
+display: block;
+}
+
+.vertical{
+margin-top: 125px;
+height: 750px;
+width: 200px;
+margin-left: 400px;
+}
+
+.horizontal{
+width: 750px;
+height: 200px;
+margin-left: 125px;
+margin-top: 400px;
+}
+
+section{
+box-shadow: 0 0 6px 4px black;
+}
