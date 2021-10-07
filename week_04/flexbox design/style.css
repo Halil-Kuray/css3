@@ -1,0 +1,124 @@
+/*- External css kullanın ve kodun düzenine dikkat edin. [-10]*/
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(116, 115, 173);
+}
+/*- En az 4 hiyerarsik seçicinin kullanılması [-10]*/
+body>main{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 85vh;
+    background-color: rgb(213, 218, 204);
+    box-shadow: 0 0 6px 4px rgb(165, 141, 141);
+}
+
+/*- En az 4 id seçicinin kullanılması [-10]*/
+#part1 {
+    display: flex;
+    background-color: rgb(32, 174, 240);
+    flex: 4;
+    justify-content: space-between;
+}
+/*- En az 4 id seçicinin kullanılması [-10]*/
+#part2 {
+    background-color: rgb(243, 245, 245);
+    flex: 6;
+    border-radius: 4%;
+    margin: 4vh;
+    position: relative;
+    top: -7vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 4px 4px rgb(204, 178, 178);
+}
+/*- 2 tane pseudo secici kullanin [-10]*/
+#part2 div:nth-child(2) {
+    font-size: 4vh;
+}
+
+p {
+    text-align: center;
+}
+/*- En az 4 id seçicinin kullanılması [-10]*/
+#part3 {
+    background-color: rgb(233, 235, 224);
+    flex: 8;
+    box-shadow: 0 0 2px 2px rgb(205, 219, 200);
+}
+/*- En az 4 id seçicinin kullanılması [-10]*/
+#part4 {
+    background-color: rgb(219, 217, 206);
+    flex: 1;
+}
+
+article {
+    margin: 8px;
+}
+/*- En az 4 id seçicinin kullanılması [-10]*/
+#part4 {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 2px 2px rgb(230, 197, 212);
+}
+/*- En az 4 hiyerarsik seçicinin kullanılması [-10]*/
+#part3>article>section>span{
+    display: inline-block;
+}
+/*- 2 tane pseudo secici kullanin [-10]*/
+#part2>div:nth-of-type(4) {
+    display: flex;
+    flex-direction: row;
+}
+/*- En az 4 hiyerarsik seçicinin kullanılması [-10]*/
+#part2>div:nth-of-type(5) {
+    display: flex;
+    justify-content: center;
+}
+/*- En az 4 hiyerarsik seçicinin kullanılması [-10]*/
+#part2>div:nth-of-type(1) {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(196, 178, 209);
+    border-radius: 40px;
+    margin-top: -40px;
+}
+
+/*- En az 4 class seçicinin kullanılması [-10]*/
+.details {
+    display: flex;
+    flex-direction: row;
+}
+/*- En az 4 class seçicinin kullanılması [-10]*/
+.icon1 {
+    flex-grow: 0;
+}
+/*- En az 4 class seçicinin kullanılması [-10]*/
+.icon2 {
+    flex-grow: 1;
+}
+/*- En az 4 class seçicinin kullanılması [-10]*/
+.icon3 {
+    flex-grow: 0;
+}
+/*- En az 2 Grup seçici (virgül ile ayirma) kullanımı [-10]*/
+#header1, #header2 {
+    background-color: lavender;
+}
+p, h2{
+    font-family: serif;
+}
+
+
+
+
+/*- Kod icinde alanlari birbirinden yorum satirlari veya bosluklar ile ayirin. [-5]*/
+
+
+
+
+
+
+
