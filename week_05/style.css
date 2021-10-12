@@ -1,0 +1,141 @@
+/*genel ortak ozelliler ile kutularimizi olusturduk*/
+main{
+    display: flex;
+    background-color: #FADE8B;
+}
+
+section{
+    display: flex;
+    padding: 20px;
+    margin: 50px;
+}
+/*ilk sekle ait stil islemleri*/
+.form-a{
+    background-color:#62306D;
+    margin: 50px;
+    
+}
+
+.up-div, .down-div{
+    width: 80px;
+    height: 80px;
+}
+
+.up-div{
+    border: 1px;
+    border-radius: 50px 50px 0px 0px;
+    background-color: #F7EC7D;
+    margin-bottom: 80px;
+}
+
+.down-div{
+    border: 1px;
+    border-radius: 0px 0px 50px 50px;
+    background-color: #F7EC7D;
+    margin-top: 80px;
+}
+/*ikinci sekle ait stil islemleri*/
+.form-b{
+    background-color: #e3516e;
+    padding: 0px 50px;
+}
+
+.left-up{
+    width: 80px;
+    height: 80px;
+    background: #51b5a9;
+    border-radius: 80px 0px 0px 0px;
+    margin-top: 20px;
+}
+.left-down{
+    width: 80px;
+    height: 80px;
+    background: #f7f3d7;
+    border-radius: 0px 0px 0px 80px;
+}
+.right-up{
+    width: 80px;
+    height: 80px;
+    background: #fade8b;
+    border-radius: 0px 80px 0px 0px;
+    margin-top: 20px;
+}
+.right-down{
+    width: 80px;
+    height: 80px;
+    background: #e3516e;
+    border-radius: 0px 0px 80px 0px;
+}
+/*ucuncu sekle ait stil islmeleri*/
+.form-circle{
+    align-items: center;
+    background-color: #191210;
+}
+
+.half{
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 15px;
+    border-radius: 75px 75px 75px 75px;
+    border-color: #eca03d #191210 #191210 #eca03d;
+}
+.small-left{
+    transform: rotate(225deg);
+
+}
+.big-circle{
+    display: flex;
+    background-color: #eca03d;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.small-right{
+    transform: rotate(45deg);
+}
+.middle-circle{
+    display: flex;
+    background-color: #191210;
+    border-radius: 35px;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+.smallest-circle{
+background-color: #84271c;
+margin: auto;
+width: 30px;
+height: 30px;
+border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
