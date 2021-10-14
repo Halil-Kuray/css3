@@ -1,0 +1,130 @@
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F0F2F5;
+    width: 100vw;
+    height: 75vh;   
+}
+
+#header-area{
+    display: flex;
+    flex-direction: column;
+    margin: 8%;
+}
+
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 30px;
+    margin-top: -15px;
+}
+
+h1, #password-forget{
+    color: #166FE5;
+}
+
+.register-form-area, .fieldset-area{
+    display: flex;
+    flex-direction: column;
+}
+
+.fieldset-area{
+    padding: 4%;
+    margin-right: 8vw;
+    border: solid white;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.fielsdset-items{
+    width: 120;
+    height: 35px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 0px 15px;
+}
+
+#register{
+    background-color: #1877F2;
+    color: white;
+}
+#password-forget{
+    margin: 15px auto 0px;
+}
+
+button{
+    width: max-content;
+    color: white;
+    background-color: #36A420;
+    border-radius: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+#ofcial-link{
+    color: black;
+    font-weight: bolder;
+}
+
+#other-languages-button{
+    background-color: rgb(192, 181, 181);
+    border: solid grey;
+    border-radius: 3px;
+}
+/*footer*/
+footer div:last-child{
+    color: grey;
+}
+
+footer div:first-child{
+    margin-left: 20px;
+}
+
+footer div:nth-of-type(2){
+    margin-left: 20px;
+}
+
+footer div:nth-of-type(3){
+    margin-left: 20px;
+}
+
+
+footer div {
+    margin: 2% 0;
+}
+
+/*
+- Ödevin geç gönderilmesi [-20 puan] +
+- Ödevin, ödev teslim tarihini takip eden Cumartesi günü 21:00’dan sonra teslim edilmesi [-50]+
+- Dizaynin birebir ayni olmasina dikkat edin.[-20]+
+- External css kullanın ve kodun düzenine dikkat edin. [-10]+
+- Kod icinde alanlari birbirinden yorum satirlari veya bosluklar ile ayirin. [-5]+
+- En az 4 hiyerarsik seçicinin kullanılması [-10]+
+- En az 4 id seçicinin kullanılması [-10]+
+- En az 4 class seçicinin kullanılması [-10]+
+- En az 2 Grup seçici (virgül ile ayirma) kullanımı [-10]+
+- Flexbox kullaniniz [-15]+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
