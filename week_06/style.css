@@ -1,0 +1,220 @@
+/*modularizasyon yerine burada kendimce siniflandirdim.
+genel kurallar*/
+html, body, main{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 150vh;
+    background-color: rgb(120, 148, 202);
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+}
+/*birinci sira*/
+.genis{
+    margin: 3vw 2vh;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.birinci-satir{
+    width: 35vw;
+    height: 20vh;
+    box-sizing: border-box;
+}
+#d, #e, #f{
+    background-color: rgb(120, 148, 202);
+    margin: 3vh auto;
+    width: 80%;
+}
+#d{
+    height: 3vh;
+}
+#e{
+    height: 2vh;
+}
+#f{
+    width: 30%;
+    height: 4vh;
+}
+/*ikinci sira*/
+.ikinci-satir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    height: 20vh;
+    box-sizing: border-box;
+}
+
+#yuvarlak{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4vw;
+    height: 7vh;
+    border-radius: 50%;
+    background-color: rgb(120, 148, 202);
+}
+#ucgen{
+    width: 3vw;
+    height: 3vh;
+    background-color: white;
+    clip-path: polygon(89% 50%, 30% 0, 30% 100%);
+
+}
+/*ucuncu sira*/
+.ucuncu-satir{
+    width: 15vw;
+    height:35vh;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+.g{
+    background-color: rgb(120, 148, 202);
+    width: 100%;
+    height: 2.8vh;
+    margin: 2.5vh 0;
+}
+#orta{
+    margin-left: 15vw;
+}
+.a{
+    display: flex;
+    margin: -10vw 0 0 -33vh;
+}
+
+.x{
+    background-color: white;
+    width: 15vw;
+    height: 50vh;
+    margin: 1vh 1vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2%;
+}
+
+#h{
+    width: 50%;
+    height: 0.8vh;
+    background-color: rgb(120, 148, 202);
+    margin: 2vh auto 1vh;
+}
+#i{
+    width: 90%;
+    height: 70%;
+    background-color: rgb(120, 148, 202);
+    margin: 2vh auto;
+    border-radius: 2%;
+}
+#j{
+    width: 15%;
+    height: 5vh;
+    background-color: white;
+    margin: 1vh auto;
+    border: solid rgb(120, 148, 202);
+    border-radius: 50%;
+}
+
+.y{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: white;
+    width: 40vw;
+    height: 50vh;
+    margin: 1vh 1vw;
+    box-sizing: border-box;
+}
+.kucuk-daireler{
+    width: 1vw;
+    height: 2vh;
+    background-color: rgb(120, 148, 202);
+    margin: 3px;
+    border-radius: 50%;
+}
+#daireler{
+    display: flex;
+    margin: 5vh auto;
+}
+#iki-ucgenler{
+    background-color: rgb(120, 148, 202);
+    width: 40%;
+    height: 25%;
+    clip-path: polygon(48% 69%, 70% 1%, 100% 99%, 0 100%, 30% 38%);
+    margin: 10% auto;
+}
+#buyuk-daire{
+    width: 15%;
+    height: 20%;
+    background-color: rgb(120, 148, 202);
+    margin: 4% auto;
+    border-radius: 50%;
+}
+
+.b{
+    display: flex;
+    flex-direction: column;
+    margin: -20vh 0 0 -4vw;
+}
+
+.z{
+    background-color:white;
+    width: 18vw;
+    height: 7vh;
+    margin: 1vh 0 5vh ;
+    box-sizing: border-box;
+}
+
+.t{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: white;
+    width: 35vw;
+    height: 35vh;
+    margin-top: 2vh;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: rgb(120, 148, 202);
+    display: flex;
+    justify-content: space-around;
+    width: 95vw;
+    height: 10vh;
+    margin: 2vh auto;
+    box-sizing: border-box;
+}
+
+#bilgi{
+    width: 60%;
+    height: 90%;
+    background-color: white;
+    margin: 0 5% 0 -1%;
+}
+#son{
+    width: 80%;
+    height: 90%;
+    background-color: rgb(120, 148, 202);
+    margin: 2px 1px;
+}
+.icon{
+    width: 8%;
+    height: 90;
+    background-color: white;
+    margin: 0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
